@@ -1,0 +1,21 @@
+
+[site]
+url = "https://zineland.github.io"
+name = "Zine Documentation"
+description = "A simple and opinionated tool to build your own magazine."
+edit_url = "https://github.com/zineland/zineland.github.io/edit/main"
+menu = [
+    { name = "Github", url = "https://github.com/zineland/zine" },
+]
+
+[theme]
+primary_color = "#ffddae"
+secondary_color = "#faf8f3"
+main_color = "#222c4b"
+link_color = "#36a5ea"
+background_image = "/static/bg.jpeg"
+head_template = "templates/head.html"
+default_cover = "/static/bg.jpeg"
+
+[authors]
+zine-team = { name ="Zine Team" }

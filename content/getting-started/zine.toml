@@ -1,0 +1,20 @@
+number = 4
+title = "Getting started"
+
+[[article]]
+file = "installation.md"
+title = "Installation"
+author = "zine-team"
+cover = ""
+pub_date = "2022-11-30"
+publish = true
+featured = true
+
+[[article]]
+file = "new-project.md"
+title = "New project"
+author = "zine-team"
+cover = ""
+pub_date = "2022-11-30"
+publish = true
+featured = true

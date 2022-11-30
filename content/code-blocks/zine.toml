@@ -1,0 +1,29 @@
+number = 1
+title = "Code blocks"
+
+[[article]]
+file = "url-preview.md"
+title = "Url preview"
+author = "zine-team"
+cover = ""
+pub_date = "2022-11-30"
+publish = true
+featured = true
+
+[[article]]
+file = "callout.md"
+title = "Callout"
+author = "zine-team"
+cover = ""
+pub_date = "2022-11-30"
+publish = true
+featured = true
+
+[[article]]
+file = "quote.md"
+title = "Quote"
+author = "zine-team"
+cover = ""
+pub_date = "2022-11-30"
+publish = true
+featured = true
