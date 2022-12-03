@@ -5,17 +5,23 @@ name = "Zine Documentation"
 description = "A simple and opinionated tool to build your own magazine."
 edit_url = "https://github.com/zineland/zineland.github.io/edit/main"
 menu = [
+    { name = "Getting started", url = "/getting-started" },
+    { name = "Customization", url = "/customization" },
+    { name = "Code blocks", url = "/code-blocks" },
     { name = "Github", url = "https://github.com/zineland/zine" },
 ]
 
 [theme]
-primary_color = "#ffddae"
+primary_color = "#bfdfff"
 secondary_color = "#faf8f3"
-main_color = "#222c4b"
+main_color = "#3a3a3a"
 link_color = "#36a5ea"
-background_image = "/static/bg.jpeg"
+background_image = "/static/sky.jpg"
 head_template = "templates/head.html"
-default_cover = "/static/bg.jpeg"
+default_cover = "/static/sky6.jpg"
 
 [authors]
 zine-team = { name ="Zine Team" }
+
+[markdown]
+highlight_theme = "ayu-light"
