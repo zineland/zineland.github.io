@@ -4,7 +4,7 @@ url = "https://zineland.github.io"
 name = "Zine Documentation"
 description = "A simple and opinionated tool to build your own magazine."
 edit_url = "https://github.com/zineland/zineland.github.io/edit/main"
-social_image = "/static/sky.jpg"
+social_image = "/static/zine.jpg"
 menu = [
     { name = "Getting started", url = "/getting-started" },
     { name = "Customization", url = "/customization" },
