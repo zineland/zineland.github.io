@@ -76,6 +76,8 @@ highlight_code = true
 highlight_theme = "ayu-light"
 ```
 
+For more about theme customization, please check `/customization/theme`.
+
 ## Issue zine.toml
 
 The issue `zine.toml` file list all your articles of this issue.

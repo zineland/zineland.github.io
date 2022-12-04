@@ -1,4 +1,4 @@
-**Zine - a simple and opinionated tool to build your own magazine.**
+**[Zine](https://github.com/zineland/zine) - a simple and opinionated tool to build your own magazine.**
 
 - Mobile-first.
 - Intuitive and elegant magazine design.
