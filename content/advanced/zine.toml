@@ -1,29 +1,29 @@
-number = 2
-title = "Code blocks"
+number = 1
+title = "Advanced"
 
 [[article]]
-file = "url-preview.md"
-title = "Url preview"
+file = "pages.md"
+title = "Pages"
 author = "zine-team"
-cover = "/static/sky6.jpg"
+cover = "/static/sky5.jpg"
 pub_date = "2022-11-30"
 publish = true
 featured = true
 
 [[article]]
-file = "callout.md"
-title = "Callout"
+file = "l10n.md"
+title = "Localization"
 author = "zine-team"
-cover = "/static/sky6.jpg"
+cover = "/static/sky5.jpg"
 pub_date = "2022-11-30"
 publish = true
 featured = true
 
 [[article]]
-file = "quote.md"
-title = "Quote"
+file = "i18n.md"
+title = "Internationalization"
 author = "zine-team"
-cover = "/static/sky6.jpg"
+cover = "/static/sky5.jpg"
 pub_date = "2022-11-30"
 publish = true
 featured = true

@@ -9,11 +9,14 @@ Here is the directory structure of regular zine porject.
 │   └── issue-2                 # the directory of another issue
 │       ├── another-article.md
 │       └── zine.toml           # the zine.toml of issue-2
+├── locales                     # the optional localization directory
 ├── static                      # the convention directory of static files, such as image, css, etc
 │   ├── xx.jpeg
 │   └── theme.css
 └── zine.toml                   # the root zine.toml of zine porject
 ```
+
+> Please check `/advanced/l10n` page for more detail about `locales` directory.
 
 A Zine project mainly consists of two kind `zine.toml` files and a bunch of markdown files.
 
@@ -33,7 +36,7 @@ social_image = "/path/to/social_image"
 # the repository edit url (optional)
 edit_url = "https://github.com/zineland/zine/edit/master/demo"
 # the locale to localize your Zine site. default to "en".
-# Zine has builtin supported locales, please check the `locales` directory of this repo.
+# Zine has builtin supported locales, please check the `locales` directory of zine's repo.
 locale = "en"
 # the menu tabs (optional)
 menu = [

@@ -8,6 +8,7 @@ menu = [
     { name = "Getting started", url = "/getting-started" },
     { name = "Customization", url = "/customization" },
     { name = "Code blocks", url = "/code-blocks" },
+    { name = "Advanced", url = "/advanced" },
     { name = "Github", url = "https://github.com/zineland/zine" },
 ]
 
