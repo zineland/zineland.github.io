@@ -14,4 +14,4 @@ zine-team = { name ="Zine Team" }
 
 ## Example
 
-For example, \`@zine-team\` will be render to `@zine-team`, while \`@robot\` will not render (because isn't declared in `[authors]` section).
+For example, \`@zine-team\` will be rendered to `@zine-team`, while \`@robot\` will not be rendered (because isn't declared in the `[authors]` section).

@@ -1,5 +1,5 @@
 
-The `urlpreview` code block help you render OPG preview info of an URL in the markdown artcile. 
+The `urlpreview` code block helps you render OPG preview info of an URL in the markdown article. 
 
 ## Syntax
 
@@ -15,7 +15,7 @@ https://github.com
 
 | Config name | Type   | Explanation |
 | ----------- | ------ |------ |
-| image       | boolean | whether you need render the preview image (default: true) |
+| image       | boolean | whether you need to render the preview image (default: true) |
 
 #### image: true
 
@@ -42,7 +42,7 @@ https://github.com
 
 ## zine-data.json
 
-In order to cache every preview URL, Zine will generate a file called `zine-data.json` to store all preview info. You should add this file to your version control system.
+To cache every preview URL, Zine will generate a file called `zine-data.json` to store all preview info. You should add this file to your version control system.
 
 ```json
 {
@@ -58,4 +58,4 @@ In order to cache every preview URL, Zine will generate a file called `zine-data
 
 > However, it's possible to add more fields to `zine-data.json` in the future.
 
-You can use `zine lint` command to lint the `zine-data.json`, such as check the broken links, redirection links, and etc.
+You can use `zine lint` command to lint the `zine-data.json`, such as checking the broken links, redirection links, etc.

@@ -25,17 +25,17 @@ Here is an example of theme customization:
 
 ![](/static/theme.png)
 
-However, those color fields isn't enough for customization, in order for advanced customization you should override the builtin CSS style. See `/customization/css`.
+However, those color fields aren’t enough for customization, in order to advanced customization, you should override the built-in CSS style. See `/customization/css` page.
 
 ## Templates
 
-Zine has an optionated layout and css style, you can extend those layout and style via those `template` fields. All those templates support **Jinja2** syntax.
+Zine has an opinionated layout and CSS style, you can extend those layouts and styles via those `template` fields. All those templates support **Jinja2** syntax.
 
 ### Head
 
-Customize `head_template` to provide your own customize fonts, Javascript, and CSS links.
+Customize `head_template` to provide your own custom fonts, Javascript, and CSS links.
 
-For example, here is the cutom head template of this website.
+For example, here is the custom head template of this website.
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,7 @@ The default footer of zine is boring. You can customize your footer via `footer_
 
 ### Article
 
-Do you wanna add a comment widget below each article? Easy. Just set a `article_extend_template`.
+Do you wanna add a comment widget below each article? Easy. Just set an `article_extend_template`.
 
 Take [https://rustpr.github.io](https://rustpr.github.io) as the instance.
 
@@ -92,7 +92,7 @@ highlight_code = true
 highlight_theme = "ayu-light"
 ```
 
-You can visit the theme directory of zine to check all of highlight themes.
+You can visit the theme directory of zine to check all of highlighting themes.
 
 ```urlpreview
 https://github.com/zineland/zine/tree/master/sublime/themes

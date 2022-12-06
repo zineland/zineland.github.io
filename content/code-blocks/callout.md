@@ -31,7 +31,7 @@ will render to:
 Zine is a static site generator for magazine.
 ```
 
-However, zine provice some builtin themes.
+However, zine provices some built-in themes.
 
 ## Callout theme
 

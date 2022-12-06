@@ -1,4 +1,4 @@
-Here is the directory structure of regular zine porject.
+Here is the directory structure of a regular zine project.
 
 ```
 .
@@ -16,9 +16,9 @@ Here is the directory structure of regular zine porject.
 └── zine.toml                   # the root zine.toml of zine porject
 ```
 
-> Please check `/advanced/l10n` page for more detail about `locales` directory.
+> Please check the `/advanced/l10n` page for more detail about the `locales` directory.
 
-A Zine project mainly consists of two kind `zine.toml` files and a bunch of markdown files.
+A Zine project mainly consists of two kinds `zine.toml` files and a bunch of markdown files.
 
 ## Root zine.toml
 
@@ -79,7 +79,7 @@ highlight_code = true
 highlight_theme = "ayu-light"
 ```
 
-For more about theme customization, please check `/customization/theme`.
+For more about theme customization, please check the `/customization/theme` page.
 
 ## Issue zine.toml
 

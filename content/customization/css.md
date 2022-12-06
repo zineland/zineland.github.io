@@ -1,6 +1,6 @@
-Most of zine element has a semantic class name, such as `zine-brand`, `zine-menu`, `zine-diamond` and etc. You can override the default styles of those classes.
+Most zine element has a semantic class name, such as `zine-brand`, `zine-menu`, `zine-diamond`, etc. You can override the default styles of those classes.
 
-Here is the customize css file of this website:
+Here is the customize CSS file of this website:
 
 ```css
 .zine-header {
@@ -34,7 +34,7 @@ main {
 }
 ```
 
-However, don't forgot add your css link into your `head_template`.
+However, don't forget add your CSS link to your `head_template`.
 
 ```html
 <link rel="stylesheet" href="/static/theme.css">

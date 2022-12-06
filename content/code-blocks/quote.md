@@ -1,4 +1,4 @@
-The `quote` is a handy block to help you quote sentence, paragraph.
+The `quote` is a handy block to help you quote sentences and paragraph.
 
 ## Syntax
 
@@ -18,7 +18,7 @@ content = ""
 | bio        | string | the bio of author (optional) |
 | content    | string | the content |
 
-The content `bio` and `content` can be markdown format. Actually, the content of `quote` is [toml](https://toml.io) format, therefore you can use multiple lines. For example:
+The content `bio` and `content` can be markdown format. Actually, the content of the `quote` is [toml](https://toml.io) format, therefore you can use multiple lines. For example:
 
 ~~~toml
 ```quote
