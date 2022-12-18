@@ -22,8 +22,14 @@ background_image = "/static/sky.jpg"
 head_template = "templates/head.html"
 default_cover = "/static/sky6.jpg"
 
+[markdown]
+highlight_theme = "ayu-light"
+
 [authors]
 zine-team = { name ="Zine Team" }
 
-[markdown]
-highlight_theme = "ayu-light"
+[topics]
+site = {}
+article = {}
+issue = {}
+style = {}

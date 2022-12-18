@@ -51,6 +51,11 @@ zine_team = { name = "Zine Team", avatar = "/path/to/avatar/", editor = true, bi
 # all fields are optional.
 foo = {}
 
+# Declare topics of this magazine.
+[topics]
+topic1 = { name = "Topic 1", description = "" }
+topic2 = {}
+
 # You can customize some theme elements in this section.
 # All of those elements are optional.
 [theme]
@@ -105,6 +110,8 @@ title = "First article"
 # also support multiple co-authors:
 # author = ["author1", "author2"]
 author = "zine-team"
+# the optional topic of this article.
+topic = ["topic1", "topic2"]
 # the cover of this article
 cover = ""
 # the publish date of this article

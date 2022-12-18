@@ -15,15 +15,27 @@ file = "l10n.md"
 title = "Localization"
 author = "zine-team"
 cover = "/static/sky5.jpg"
+topic = ["site"]
 pub_date = "2022-11-30"
 publish = true
 featured = true
 
 [[article]]
 file = "i18n.md"
-title = "Internationalization"
+title = "Article internationalization"
 author = "zine-team"
 cover = "/static/sky5.jpg"
+topic = ["article"]
 pub_date = "2022-11-30"
+publish = true
+featured = true
+
+[[article]]
+file = "topic.md"
+title = "Article topic"
+author = "zine-team"
+cover = "/static/sky5.jpg"
+topic = ["article"]
+pub_date = "2022-12-16"
 publish = true
 featured = true

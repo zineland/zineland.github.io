@@ -24,6 +24,7 @@ file = "directory-structure.md"
 title = "Directory constructure"
 author = "zine-team"
 cover = "/static/sky.jpg"
+topic = ["article", "issue"]
 pub_date = "2022-11-30"
 publish = true
 featured = true
