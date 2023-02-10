@@ -1,7 +1,7 @@
 Here is the directory structure of a regular zine project.
 
 ```
-.
+
 ├── content                     # the convention directory of markdown fiels of zine project 
 │   ├── issue-1                 # the directory of an issue
 │   │   ├── article.md
@@ -88,7 +88,7 @@ For more about theme customization, please check the `/customization/theme` page
 
 ## Issue zine.toml
 
-The issue `zine.toml` file list all your articles of this issue.
+The issue `zine.toml` file list all articles contained within a given issue.
 
 ```toml
 # the number of this issue
