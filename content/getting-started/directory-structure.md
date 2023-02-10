@@ -121,7 +121,7 @@ publish = true
 featured = true
 # When articles are reposted from the original source, set a
 # canonical property to help prevent duplicate content issues for search engines.
-# canonical = "URL of the orginal Article"
+canonical = "URL of the orginal Article"
 # the translations of this artcle.
 # the key of syntax is `i18n.[locale]`, the value is the article object.
 i18n.fr = { file = "1-first-fr.md", title = "Premier article", pub_date = "2022-11-27" }
