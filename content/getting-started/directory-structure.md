@@ -121,6 +121,10 @@ publish = true
 # whether mark this article as a featured article. 
 # the featured articles will be shown on the home page
 featured = true
+# This can be set if you are the original author of an article, and have submitted a reformatted
+# version of your article for a zine site. This ensure that search engines will rank your original
+# and not impact SEO negatively.
+canonical = "URL of the orginal Article"
 # the translations of this artcle.
 # the key of syntax is `i18n.[locale]`, the value is the article object.
 i18n.fr = { file = "1-first-fr.md", title = "Premier article", pub_date = "2022-11-27" }
