@@ -21,7 +21,7 @@ featured = true
 
 [[article]]
 file = "directory-structure.md"
-title = "Directory constructure"
+title = "Directory Structure"
 author = "zine-team"
 cover = "/static/sky.jpg"
 topic = ["article", "issue"]

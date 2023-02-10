@@ -1,7 +1,7 @@
 Here is the directory structure of a regular zine project.
 
 ```
-.
+
 ├── content                     # the convention directory of markdown fiels of zine project 
 │   ├── issue-1                 # the directory of an issue
 │   │   ├── article.md
@@ -29,8 +29,6 @@ This root `zine.toml` file describes your site meta and all your issue's info.
 url = "https://your-domain.com"
 name = "Your Zine Site Name"
 description = ""
-# the logo of your site (optional)
-logo = "/path/to/favicon"
 # the OpenGraph social image path. (optional)
 social_image = "/path/to/social_image"
 # the repository edit url (optional)
@@ -88,7 +86,7 @@ For more about theme customization, please check the `/customization/theme` page
 
 ## Issue zine.toml
 
-The issue `zine.toml` file list all your articles of this issue.
+The issue `zine.toml` file list all articles contained within a given issue.
 
 ```toml
 # the number of this issue
@@ -121,6 +119,9 @@ publish = true
 # whether mark this article as a featured article. 
 # the featured articles will be shown on the home page
 featured = true
+# When articles are reposted from the original source, set a
+# canonical property to help prevent duplicate content issues for search engines.
+canonical = "URL of the orginal Article"
 # the translations of this artcle.
 # the key of syntax is `i18n.[locale]`, the value is the article object.
 i18n.fr = { file = "1-first-fr.md", title = "Premier article", pub_date = "2022-11-27" }
