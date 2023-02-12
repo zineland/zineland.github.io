@@ -1,5 +1,5 @@
 
-The `urlpreview` code block helps you render OPG preview info of an URL in the markdown article. 
+The `urlpreview` code block helps you render OG preview info of an URL in the markdown article. 
 
 ## Syntax
 

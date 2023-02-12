@@ -53,7 +53,7 @@ The default footer of zine is boring. You can customize your footer via `footer_
 
 Do you wanna add a comment widget below each article? Easy. Just set an `article_extend_template`.
 
-Take [https://rustpr.github.io](https://rustpr.github.io) as the instance.
+Take [https://rustmagazine.org](https://rustmagazine.org) as the instance.
 
 ```html
 <div class="mx-4">
@@ -61,7 +61,7 @@ Take [https://rustpr.github.io](https://rustpr.github.io) as the instance.
 </div>
 <script
   src="https://giscus.app/client.js"
-  data-repo="rustpr/rustpr.github.io"
+  data-repo="rustmagazine/rustmagazine"
   data-repo-id="R_kgDOIcB-NQ"
   data-category="Articles"
   data-category-id="DIC_kwDOIcB-Nc4CSkor"
